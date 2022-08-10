@@ -28,6 +28,9 @@ body{
 .alert{
     text-align: center;
 }
+.pie{
+    margin-top: 100px;
+}
 .robot1{
     width: 200px;
     position: fixed;
