@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0% 3%;
+    background-image: linear-gradient( to left,white, rgb(84, 84, 186), rgb(52, 52, 197), rgb(48, 48, 212), blue, black);
+    background-repeat: no-repeat;
+}
+.card{
+    background-color: rgb(207, 205, 205);
+}
+.card:hover{
+    transform: scale(1.20);
+}
+.cards{
+    margin: 3% auto;
+    border: solid 2px;
+    
+}
+.btn-primary{
+    display: flex;
+}
+.alert{
+    text-align: center;
+}
+.robot1{
+    width: 200px;
+    position: fixed;
+    top: 35%;
+    left: 1%;
+}
+.robot2{
+    width: 200px;
+    position: fixed;
+    bottom: 35%;
+    right: 1%;
+}
+@media (max-width:900px){
+    .robot{
+        width: 150px;
+    }
+}
+@media (max-width:600px){
+    .robot{
+        width: 100px;
+    }
+}
+@media (max-width:400px){
+    .robot{
+        width: 50px;
+    }
+}
