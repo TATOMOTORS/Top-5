@@ -21,6 +21,8 @@ body{
 .cards{
     margin: 3% auto;
     border: solid 2px;
+    background-color: black;
+    color: white;
 }
 .btn-primary{
     display: flex;
